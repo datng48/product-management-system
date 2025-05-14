@@ -47,6 +47,19 @@ npm install
 npm start
 ```
 
+### Explaination of caching, optimization strategies, and like feature:
+* Caching, in this project I basically defining a built-in Nestjs's lib called cache-manager, which will cache the less likely to change data, or not usually change data, with a TTL to be not too long, not too short ( e.g 300 seconds ) so that it will improve performance by not making API calls to the database to get frequently used data too often, and invalidate the data by deleting the stale data.
+* Optimization strategies:
+  * Organized components for better reusability
+  * Optimized components rendering based on state
+  * Implemented pagination handling, fetching a specific number of pages instead all at once, improve performance significantly
+* Like feature:
+  * User entity: 1 User can like many Products
+  * Product entity: 1 Product can be liked by many Users
+  * Toggle like:
+    * Query to the db if a specific user has already liked the product:
+      * if not then update like to the db and invalidate the data ( remove the stale data from cache )
+      * if already liked, then update the db to remove like and invalidate the data to
 
 ## Using the GraphQL API
 
