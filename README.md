@@ -59,7 +59,7 @@ npm start
   * Toggle like:
     * Query to the db if a specific user has already liked the product:
       * if not then update like to the db and invalidate the data ( remove the stale data from cache )
-      * if already liked, then update the db to remove like and invalidate the data to
+      * if already liked, then update the db to remove like and invalidate the data
 
 ## Using the GraphQL API
 
