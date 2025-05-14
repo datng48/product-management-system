@@ -54,6 +54,7 @@ npm start
   * Optimized components rendering based on state
   * Implemented pagination handling, fetching a specific number of pages instead all at once, improve performance significantly
 * Like feature:
+* Many-to-many relationship:
   * User entity: 1 User can like many Products
   * Product entity: 1 Product can be liked by many Users
   * Toggle like:
