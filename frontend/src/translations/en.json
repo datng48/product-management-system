@@ -1,0 +1,75 @@
+{
+  "app": {
+    "title": "Product Management System",
+    "language": "Language"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "myAccount": "My Account"
+  },
+  "auth": {
+    "username": "Username",
+    "password": "Password",
+    "loginTitle": "Login to your account",
+    "registerTitle": "Create new account",
+    "submitLogin": "Login",
+    "submitRegister": "Register",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "registerNow": "Register now",
+    "loginNow": "Login now",
+    "logoutSuccess": "You have been logged out successfully"
+  },
+  "products": {
+    "title": "Products",
+    "search": "Search products...",
+    "filter": "Filter",
+    "sort": "Sort by",
+    "category": "Category",
+    "price": "Price",
+    "all": "All",
+    "noProducts": "No products found",
+    "addToCart": "Add to Cart",
+    "like": "Like",
+    "unlike": "Unlike",
+    "createNew": "Create New Product",
+    "edit": "Edit",
+    "delete": "Delete",
+    "details": "Details"
+  },
+  "productForm": {
+    "createTitle": "Create New Product",
+    "editTitle": "Edit Product",
+    "name": "Product Name",
+    "price": "Price",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "submit": "Save Product",
+    "cancel": "Cancel"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "success": "Success",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "actions": "Actions"
+  }
+} 
